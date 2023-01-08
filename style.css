@@ -1,7 +1,76 @@
+html { 
+    height: 100%;
+    width: 100%;
+}
+
 body { 
     text-align: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F1FAEE;
+    margin: 0;
+    color: #A8DADC;
 }
 
 nav { 
     text-align: end;
+    background-color: #457B9D;
+    padding: 1em;
 }
+
+a { 
+    color: #F1FAEE;
+    text-align: end;
+    padding: 1em;
+}
+
+a:hover { 
+    background-color: #1D3557;
+}
+
+.experience-box, .project-box { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3em 6em 3em 6em;
+    color: #F1FAEE;
+    background-color: #457B9D;
+    padding: 1.5em;
+}
+
+ul { 
+    font-size: medium;
+    text-align: left;
+}
+
+li { 
+    margin-top: 0.1em;
+}
+
+#intro { 
+    height: 100%;
+    width: 100%;
+    margin-top: 25%;
+}
+
+#welcome { 
+    font-size: xx-large;
+}
+
+#description { 
+    margin: 0rem 6rem 0rem 6rem;
+}
+
+.experience-title, .experience-date{ 
+    margin: 0.5em;
+}
+
+/*
+#experience { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+*/
